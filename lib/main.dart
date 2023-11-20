@@ -1,4 +1,5 @@
-import 'package:demo_bloc/view/login_screen.dart';
+
+import 'package:demo_bloc/view/counter_page/counter_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Demo Bloc',
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: CounterPage(),
     );
   }
 }
